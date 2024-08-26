@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  myapp:
+  article-extractor-ai:
     build: .
     ports:
       - "9110:8000"  # Map FastAPI port to host
