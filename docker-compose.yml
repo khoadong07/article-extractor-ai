@@ -4,8 +4,8 @@ services:
   myapp:
     build: .
     ports:
-      - "8000:8000"  # Map FastAPI port to host
-      - "8501:8501"  # Map Streamlit port to host
+      - "9110:8000"  # Map FastAPI port to host
+      - "9111:8501"  # Map Streamlit port to host
     volumes:
       - ./logs:/app/logs  # Mount the logs directory
     environment:
